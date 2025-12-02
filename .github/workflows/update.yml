@@ -2,8 +2,8 @@ name: Auto Update
 
 on:
   schedule:
-    - cron: '0 6 * * *'  # Täglich um 6:00 UTC
-  workflow_dispatch:      # Manuell auslösbar
+    - cron: '0 6 * * *'  # Daily at 6:00 UTC
+  workflow_dispatch:      # Manual trigger
 
 jobs:
   update:
