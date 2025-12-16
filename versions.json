@@ -1,0 +1,34 @@
+{
+  "formatVersion": 1,
+  "passCliVersions": {
+    "version": "1.2.0",
+    "urls": {
+      "macos": {
+        "aarch64": {
+          "url": "https://proton.me/download/pass-cli/1.2.0/pass-cli-macos-aarch64",
+          "hash": "6583f06f093dd2d0e5a96519af9a4512785f2c3c1750bc866dc6d6354d31c279"
+        },
+        "x86_64": {
+          "url": "https://proton.me/download/pass-cli/1.2.0/pass-cli-macos-x86_64",
+          "hash": "aa202aafd18daacf8eaa93a53167925b8f681212605387d581f821aa39f132bf"
+        }
+      },
+      "linux": {
+        "aarch64": {
+          "url": "https://proton.me/download/pass-cli/1.2.0/pass-cli-linux-aarch64",
+          "hash": "94499d54f82d8ebe61934155cc2a67b4cbfd1c6d6d3ce6c800cd2600b6c503dc"
+        },
+        "x86_64": {
+          "url": "https://proton.me/download/pass-cli/1.2.0/pass-cli-linux-x86_64",
+          "hash": "c7dbdd16e7207b39a16f6d3938fad23bb2154341e3373a47180c68604526063e"
+        }
+      },
+      "windows": {
+        "x86_64": {
+          "url": "https://proton.me/download/pass-cli/1.2.0/pass-cli-windows-x86_64.zip",
+          "hash": "9bbc589ad373cc15a68983a4eb4057e63cb24290b1de12a869c0756306e63b66"
+        }
+      }
+    }
+  }
+}

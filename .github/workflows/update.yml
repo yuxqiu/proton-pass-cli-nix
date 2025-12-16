@@ -16,51 +16,42 @@ jobs:
       - name: Install Nix
         uses: cachix/install-nix-action@v27
 
-      - name: Check for updates
-        id: check
+      - name: Install jq (for version extraction)
+        run: sudo apt-get update && sudo apt-get install -y jq
+
+      - name: Run update script
+        id: update
         run: |
-          MANIFEST=$(curl -fsSL https://proton.me/download/pass-cli/versions.json)
-          VERSION=$(echo "$MANIFEST" | jq -r '.passCliVersions.version')
-          HASH=$(echo "$MANIFEST" | jq -r '.passCliVersions.urls.linux.x86_64.hash')
-          CURRENT=$(grep 'version = ' package.nix | sed 's/.*"\(.*\)".*/\1/')
-          
-          echo "current=$CURRENT" >> $GITHUB_OUTPUT
-          echo "latest=$VERSION" >> $GITHUB_OUTPUT
-          echo "hash=$HASH" >> $GITHUB_OUTPUT
-          
-          if [ "$VERSION" != "$CURRENT" ]; then
-            echo "needs_update=true" >> $GITHUB_OUTPUT
-          else
+          ./scripts/update.sh
+
+          # Capture outputs from the script (it echoes messages)
+          if git diff --quiet versions.json; then
             echo "needs_update=false" >> $GITHUB_OUTPUT
+          else
+            echo "needs_update=true" >> $GITHUB_OUTPUT
+            NEW_VERSION=$(jq -r '.passCliVersions.version' versions.json)
+            echo "new_version=$NEW_VERSION" >> $GITHUB_OUTPUT
           fi
 
-      - name: Update package
-        if: steps.check.outputs.needs_update == 'true'
+      - name: Test build (on update)
+        if: steps.update.outputs.needs_update == 'true'
         run: |
-          VERSION="${{ steps.check.outputs.latest }}"
-          HASH="${{ steps.check.outputs.hash }}"
-          sed -i "s/version = \".*\"/version = \"$VERSION\"/" package.nix
-          sed -i "s/sha256 = \".*\"/sha256 = \"$HASH\"/" package.nix
+          nix build .#proton-pass-cli --print-build-logs
 
-      - name: Test build
-        if: steps.check.outputs.needs_update == 'true'
-        run: |
-          nix build .#proton-pass-cli --accept-flake-config
-
-      - name: Commit and push
-        if: steps.check.outputs.needs_update == 'true'
+      - name: Commit and push (on update)
+        if: steps.update.outputs.needs_update == 'true'
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add package.nix
-          git commit -m "Update proton-pass-cli to ${{ steps.check.outputs.latest }}"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add versions.json
+          git commit -m "proton-pass-cli: update to ${{ steps.update.outputs.new_version }}"
           git push
 
-      - name: Create Release
-        if: steps.check.outputs.needs_update == 'true'
+      - name: Create Release (on update)
+        if: steps.update.outputs.needs_update == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh release create "v${{ steps.check.outputs.latest }}" \
-            --title "proton-pass-cli ${{ steps.check.outputs.latest }}" \
-            --notes "Updated proton-pass-cli from ${{ steps.check.outputs.current }} to ${{ steps.check.outputs.latest }}"
+          gh release create "v${{ steps.update.outputs.new_version }}" \
+            --title "proton-pass-cli ${{ steps.update.outputs.new_version }}" \
+            --generate-notes
