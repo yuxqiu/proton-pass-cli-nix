@@ -1,3 +1,7 @@
+Forked from [tomsch/proton-pass-cli-nix](https://github.com/yuxqiu/proton-pass-cli-nix) to add multi-arch support for Linux (x86_64 & aarch64) and Darwin (macOS Intel & Apple Silicon)
+
+---
+
 # Proton Pass CLI for NixOS
 
 Unofficial Nix package for [Proton Pass CLI](https://protonpass.github.io/pass-cli/).
@@ -8,7 +12,7 @@ Unofficial Nix package for [Proton Pass CLI](https://protonpass.github.io/pass-c
 
 ```nix
 {
-  inputs.proton-pass-cli.url = "github:tomsch/proton-pass-cli-nix";
+  inputs.proton-pass-cli.url = "github:yuxqiu/proton-pass-cli-nix";
 
   outputs = { self, nixpkgs, proton-pass-cli, ... }: {
     # NixOS
@@ -26,13 +30,13 @@ Unofficial Nix package for [Proton Pass CLI](https://protonpass.github.io/pass-c
 ### Direct Run (no install)
 
 ```bash
-nix run github:tomsch/proton-pass-cli-nix
+nix run github:yuxqiu/proton-pass-cli-nix
 ```
 
 ### Imperative Install
 
 ```bash
-nix profile install github:tomsch/proton-pass-cli-nix
+nix profile install github:yuxqiu/proton-pass-cli-nix
 ```
 
 ## Configuration
@@ -43,11 +47,13 @@ Proton Pass CLI needs a local encryption key to store session data. Set `PROTON_
 
 | Provider | Description |
 |----------|-------------|
-| `keyring` | D-Bus Secret Service (gnome-keyring, KWallet) |
+| `keyring` | kernel keyring |
 | `fs` | Filesystem storage |
 | `env` | Environment variable (recommended for NixOS) |
 
 **Recommended: `env` provider** (most reliable on NixOS):
+
+> I don't recommend using this for security purposes, but it is kept for completeness. See the [CLI configuration](https://protonpass.github.io/pass-cli/get-started/configuration/).
 
 ```bash
 # Add to .zshrc or .bashrc
