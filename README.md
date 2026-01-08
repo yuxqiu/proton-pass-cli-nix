@@ -1,4 +1,4 @@
-Forked from [tomsch/proton-pass-cli-nix](https://github.com/yuxqiu/proton-pass-cli-nix) to add multi-arch support for Linux (x86_64 & aarch64) and Darwin (macOS Intel & Apple Silicon)
+Forked from [tomsch/proton-pass-cli-nix](https://github.com/tomsch/proton-pass-cli-nix) to add multi-arch support for Linux (x86_64 & aarch64) and Darwin (macOS Intel & Apple Silicon)
 
 ---
 
@@ -45,11 +45,11 @@ nix profile install github:yuxqiu/proton-pass-cli-nix
 
 Proton Pass CLI needs a local encryption key to store session data. Set `PROTON_PASS_KEY_PROVIDER` to one of:
 
-| Provider | Description |
-|----------|-------------|
-| `keyring` | kernel keyring |
-| `fs` | Filesystem storage |
-| `env` | Environment variable (recommended for NixOS) |
+| Provider  | Description                                  |
+| --------- | -------------------------------------------- |
+| `keyring` | kernel keyring                               |
+| `fs`      | Filesystem storage                           |
+| `env`     | Environment variable (recommended for NixOS) |
 
 **Recommended: `env` provider** (most reliable on NixOS):
 
@@ -151,11 +151,13 @@ PROTON_PASS_ENCRYPTION_KEY="YOUR_BASE64_KEY_HERE"
 ```
 
 Generate a key once:
+
 ```bash
 head -c 32 /dev/urandom | base64
 ```
 
 Load in your shell config:
+
 ```bash
 # In .zshrc or .bashrc
 [[ -f ~/.config/secrets.env ]] && source ~/.config/secrets.env
