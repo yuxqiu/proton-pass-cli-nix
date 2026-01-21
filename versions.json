@@ -1,32 +1,32 @@
 {
   "formatVersion": 1,
   "passCliVersions": {
-    "version": "1.3.5",
+    "version": "1.4.0",
     "urls": {
       "macos": {
         "aarch64": {
-          "url": "https://proton.me/download/pass-cli/1.3.5/pass-cli-macos-aarch64",
-          "hash": "23e41879f83a102c716faf110f28f0d1d2b8faf48ebeef2a43690f86e3e869b5"
+          "url": "https://proton.me/download/pass-cli/1.4.0/pass-cli-macos-aarch64",
+          "hash": "c80b751d286091b207931f5492b6d3fda162016cafed82061c4cc211a9d03c79"
         },
         "x86_64": {
-          "url": "https://proton.me/download/pass-cli/1.3.5/pass-cli-macos-x86_64",
-          "hash": "ed331c7a7e225fd9ebd2bc6617bbc5589d7db6434de5ded8a8898bd0b17d8e4c"
+          "url": "https://proton.me/download/pass-cli/1.4.0/pass-cli-macos-x86_64",
+          "hash": "6ac5ab73b3053ed6c511580b6665687f57789331a9880a3aa9a28b00b0091b98"
         }
       },
       "linux": {
         "aarch64": {
-          "url": "https://proton.me/download/pass-cli/1.3.5/pass-cli-linux-aarch64",
-          "hash": "a212858fe77be6161ebfa8f09fb58bb5fd9ec4d2493767057869308051efc751"
+          "url": "https://proton.me/download/pass-cli/1.4.0/pass-cli-linux-aarch64",
+          "hash": "ae2c4f6259a2dab9197f3f784d6c6870a0dc69a7872e1cacc65281aa63c32793"
         },
         "x86_64": {
-          "url": "https://proton.me/download/pass-cli/1.3.5/pass-cli-linux-x86_64",
-          "hash": "2deaf3b420cd43adf061439f8942ddbd8db340352555735c0ec7f5dd20da220f"
+          "url": "https://proton.me/download/pass-cli/1.4.0/pass-cli-linux-x86_64",
+          "hash": "502deb966a997e4c277d64000b6df62c14e30eb5d28d4113e95e58bd560cdb02"
         }
       },
       "windows": {
         "x86_64": {
-          "url": "https://proton.me/download/pass-cli/1.3.5/pass-cli-windows-x86_64.zip",
-          "hash": "55c2ab5d74ee07979602f3e306ce492ebee9a64694f938a71d63d4f561d36e46"
+          "url": "https://proton.me/download/pass-cli/1.4.0/pass-cli-windows-x86_64.zip",
+          "hash": "afbd02796f22593c33df5e8f0238e03d0f1d94252a855247b26687e2ed5fedf9"
         }
       }
     }
