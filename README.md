@@ -1,5 +1,7 @@
 Forked from [tomsch/proton-pass-cli-nix](https://github.com/tomsch/proton-pass-cli-nix) to add multi-arch support for Linux (x86_64 & aarch64) and Darwin (macOS Intel & Apple Silicon)
 
+_Update_: `proton-pass-cli` has since been added to nixpkgs. This flake is now maintained purely for archival purposes and for users who prefer to access the very latest version of the executable.
+
 ---
 
 # Proton Pass CLI for NixOS
