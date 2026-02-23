@@ -1,32 +1,32 @@
 {
   "formatVersion": 1,
   "passCliVersions": {
-    "version": "1.5.1",
+    "version": "1.5.2",
     "urls": {
       "macos": {
         "aarch64": {
-          "url": "https://proton.me/download/pass-cli/1.5.1/pass-cli-macos-aarch64",
-          "hash": "f4462e7c642d9eeebc363ac167849bfcc501e78eabafa30a3eb0c6aa42104948"
+          "url": "https://proton.me/download/pass-cli/1.5.2/pass-cli-macos-aarch64",
+          "hash": "f24eacb50155502f2f9b2b5857fcd4251b09c554679b67857aa97b1d37c2b2e7"
         },
         "x86_64": {
-          "url": "https://proton.me/download/pass-cli/1.5.1/pass-cli-macos-x86_64",
-          "hash": "8b710e47a47ac11b090fe5970df1c4e894fedefa6949820c90e87ef556ae662d"
+          "url": "https://proton.me/download/pass-cli/1.5.2/pass-cli-macos-x86_64",
+          "hash": "cfb2c07f0fc9d8fecd4b2508af4bb0f20ee9ca54a4174123517d4c173b899889"
         }
       },
       "linux": {
         "aarch64": {
-          "url": "https://proton.me/download/pass-cli/1.5.1/pass-cli-linux-aarch64",
-          "hash": "4d0888ccde58f7787340a75b8f0d2cab86b28be29073574eec1f566f15cb0b2d"
+          "url": "https://proton.me/download/pass-cli/1.5.2/pass-cli-linux-aarch64",
+          "hash": "ac88e2ebf15a4799c508408c0cf81dd9180313fe45b67941567ebd30c4fbadb2"
         },
         "x86_64": {
-          "url": "https://proton.me/download/pass-cli/1.5.1/pass-cli-linux-x86_64",
-          "hash": "f299dd87c33306dace620d6a5d939a5761e26c0eb2cabc8fdbf3732e0707acc0"
+          "url": "https://proton.me/download/pass-cli/1.5.2/pass-cli-linux-x86_64",
+          "hash": "b6e02ac79cee277767023dda21b6cea276d56fdb0bf85d96eaf022ff6227debc"
         }
       },
       "windows": {
         "x86_64": {
-          "url": "https://proton.me/download/pass-cli/1.5.1/pass-cli-windows-x86_64.zip",
-          "hash": "e254be07c338e13ca36980b98e3b45d6dbca0290b1abc488d7294d66e6f13562"
+          "url": "https://proton.me/download/pass-cli/1.5.2/pass-cli-windows-x86_64.zip",
+          "hash": "d6a6ebe354b1bd839fbe11b147f3d77885ca801df0199c8c9f03e0cdc1193b0d"
         }
       }
     }
