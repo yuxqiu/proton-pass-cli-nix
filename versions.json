@@ -1,32 +1,32 @@
 {
   "formatVersion": 1,
   "passCliVersions": {
-    "version": "1.5.2",
+    "version": "1.6.0",
     "urls": {
       "macos": {
         "aarch64": {
-          "url": "https://proton.me/download/pass-cli/1.5.2/pass-cli-macos-aarch64",
-          "hash": "f24eacb50155502f2f9b2b5857fcd4251b09c554679b67857aa97b1d37c2b2e7"
+          "url": "https://proton.me/download/pass-cli/1.6.0/pass-cli-macos-aarch64",
+          "hash": "3354a15d479f6a1a70f0f1b0031222d6169fe05682628f2f0108d4d496e9a0d6"
         },
         "x86_64": {
-          "url": "https://proton.me/download/pass-cli/1.5.2/pass-cli-macos-x86_64",
-          "hash": "cfb2c07f0fc9d8fecd4b2508af4bb0f20ee9ca54a4174123517d4c173b899889"
+          "url": "https://proton.me/download/pass-cli/1.6.0/pass-cli-macos-x86_64",
+          "hash": "07b0766a92726bbb343e2633fe943fcef90e4fef020a60c76f5c866eb851277f"
         }
       },
       "linux": {
         "aarch64": {
-          "url": "https://proton.me/download/pass-cli/1.5.2/pass-cli-linux-aarch64",
-          "hash": "ac88e2ebf15a4799c508408c0cf81dd9180313fe45b67941567ebd30c4fbadb2"
+          "url": "https://proton.me/download/pass-cli/1.6.0/pass-cli-linux-aarch64",
+          "hash": "1477018eb0236a102b8d761575d5756f00d601fc91bbf10b4ecec27213203aa8"
         },
         "x86_64": {
-          "url": "https://proton.me/download/pass-cli/1.5.2/pass-cli-linux-x86_64",
-          "hash": "b6e02ac79cee277767023dda21b6cea276d56fdb0bf85d96eaf022ff6227debc"
+          "url": "https://proton.me/download/pass-cli/1.6.0/pass-cli-linux-x86_64",
+          "hash": "2fc1fbca28dc8f3889ba1c7f2bc616e5e3e682af56ad0ef9ba69b3b77c0f988a"
         }
       },
       "windows": {
         "x86_64": {
-          "url": "https://proton.me/download/pass-cli/1.5.2/pass-cli-windows-x86_64.zip",
-          "hash": "d6a6ebe354b1bd839fbe11b147f3d77885ca801df0199c8c9f03e0cdc1193b0d"
+          "url": "https://proton.me/download/pass-cli/1.6.0/pass-cli-windows-x86_64.zip",
+          "hash": "ffaa3b1d0be54061b199e11ff72eccc8642caabf4501539eeb111e5580cd02e8"
         }
       }
     }
