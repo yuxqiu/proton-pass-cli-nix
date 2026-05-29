@@ -1,32 +1,32 @@
 {
   "formatVersion": 1,
   "passCliVersions": {
-    "version": "2.1.1",
+    "version": "2.1.2",
     "urls": {
       "macos": {
         "aarch64": {
-          "url": "https://proton.me/download/pass-cli/2.1.1/pass-cli-macos-aarch64",
-          "hash": "787b107dbfb759502460cac361724e2862d5082025fc02e902f436a92df050a9"
+          "url": "https://proton.me/download/pass-cli/2.1.2/pass-cli-macos-aarch64",
+          "hash": "2ae5bdf202f67e4b7f7886ddba44d267242fcd35ccb861a61acf860235de2250"
         },
         "x86_64": {
-          "url": "https://proton.me/download/pass-cli/2.1.1/pass-cli-macos-x86_64",
-          "hash": "a23b7781578d0220d655f745b40e89abf5b0a8cd3fa3537f2ec080c747abb8af"
+          "url": "https://proton.me/download/pass-cli/2.1.2/pass-cli-macos-x86_64",
+          "hash": "5d902d825cbde5d00034ae06e1529429e389decb0891d8604fd46b0fb0c67500"
         }
       },
       "linux": {
         "aarch64": {
-          "url": "https://proton.me/download/pass-cli/2.1.1/pass-cli-linux-aarch64",
-          "hash": "d76579e5191ea4a56d8e254898c9c6c5242a7f3a3a5204dccb88f34409e4c9fb"
+          "url": "https://proton.me/download/pass-cli/2.1.2/pass-cli-linux-aarch64",
+          "hash": "0562625812f940bd4b7abd664b3bbcfefdeaf79d2f9b12f2d0a73be1ffc551ff"
         },
         "x86_64": {
-          "url": "https://proton.me/download/pass-cli/2.1.1/pass-cli-linux-x86_64",
-          "hash": "97eeed17907674cfde7b397157f14f3ae0d1391c82732062971f4b1333559a8f"
+          "url": "https://proton.me/download/pass-cli/2.1.2/pass-cli-linux-x86_64",
+          "hash": "5291edd21d85d222538b91341345ae3b0a1479e254d42920c2bbbd34012c6243"
         }
       },
       "windows": {
         "x86_64": {
-          "url": "https://proton.me/download/pass-cli/2.1.1/pass-cli-windows-x86_64.zip",
-          "hash": "42379f09ca606d9b6da851dbf6cba73482bded52b8cd8771defd72a1be443a0c"
+          "url": "https://proton.me/download/pass-cli/2.1.2/pass-cli-windows-x86_64.zip",
+          "hash": "c6a7c09d32e0c36a5faeb1b15bf82253247778110dabad5147f7ee0c4212a5a5"
         }
       }
     }
