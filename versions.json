@@ -1,32 +1,32 @@
 {
   "formatVersion": 1,
   "passCliVersions": {
-    "version": "2.2.1",
+    "version": "2.2.2",
     "urls": {
       "macos": {
         "aarch64": {
-          "url": "https://proton.me/download/pass-cli/2.2.1/pass-cli-macos-aarch64",
-          "hash": "fafd72f20c45cb816793f48d8623ce6eb9d06478431923767d36776fde8b450e"
+          "url": "https://proton.me/download/pass-cli/2.2.2/pass-cli-macos-aarch64",
+          "hash": "09d636a184fb8dc93cd6575fe913451ec46539c745ba48d533fd9fab44c740f3"
         },
         "x86_64": {
-          "url": "https://proton.me/download/pass-cli/2.2.1/pass-cli-macos-x86_64",
-          "hash": "f65a64a61e90baea7ba256d9b14720168f0440f5b3d630d16d27df35b455479a"
+          "url": "https://proton.me/download/pass-cli/2.2.2/pass-cli-macos-x86_64",
+          "hash": "1af7a4e5eab3d526a1e47c38925c62412412016dcb3ae10fbc55105265e5c153"
         }
       },
       "linux": {
         "aarch64": {
-          "url": "https://proton.me/download/pass-cli/2.2.1/pass-cli-linux-aarch64",
-          "hash": "5bfa922b289e61333d708c75c77a9dbd7d056f004c838d823bc948acdfb1a5ad"
+          "url": "https://proton.me/download/pass-cli/2.2.2/pass-cli-linux-aarch64",
+          "hash": "a158db185805df030f25961f8947d991108bcd6f901afe3892b8ff1d40021961"
         },
         "x86_64": {
-          "url": "https://proton.me/download/pass-cli/2.2.1/pass-cli-linux-x86_64",
-          "hash": "f916cf0d584503468e4cecb412b78657b55453822984173fcb9656a3d1a78ce6"
+          "url": "https://proton.me/download/pass-cli/2.2.2/pass-cli-linux-x86_64",
+          "hash": "65bf75195bfd0fe8d9660144c837466b7ee9195d38e56e3557d5ee6439c5f751"
         }
       },
       "windows": {
         "x86_64": {
-          "url": "https://proton.me/download/pass-cli/2.2.1/pass-cli-windows-x86_64.zip",
-          "hash": "b46868cb1cb4dad722fad425d665ccadd6919892c4c2b7860d3bd5e92ee487bb"
+          "url": "https://proton.me/download/pass-cli/2.2.2/pass-cli-windows-x86_64.zip",
+          "hash": "460c13e94f418c5f15d29ca7a4b2b7d69f7288261336d129c71952888450a440"
         }
       }
     }
