@@ -1,32 +1,32 @@
 {
   "formatVersion": 1,
   "passCliVersions": {
-    "version": "2.2.5",
+    "version": "2.2.6",
     "urls": {
       "macos": {
         "aarch64": {
-          "url": "https://proton.me/download/pass-cli/2.2.5/pass-cli-macos-aarch64",
-          "hash": "bbaac0992124471a0ca1cc2624fce81fdac5c5d50e8f31a6bb729f771f7f36e1"
+          "url": "https://proton.me/download/pass-cli/2.2.6/pass-cli-macos-aarch64",
+          "hash": "53d38309bc7af64b5d197085cb9c2339d3eb684bb4a100700bdcab084f8da150"
         },
         "x86_64": {
-          "url": "https://proton.me/download/pass-cli/2.2.5/pass-cli-macos-x86_64",
-          "hash": "823e474bbba634e1637509003ad7f60caf32be0ee5fc6d4d35d6ab7dcc89d171"
+          "url": "https://proton.me/download/pass-cli/2.2.6/pass-cli-macos-x86_64",
+          "hash": "1c5abd68039919a4483fb230906429c741a0d957a1abcd3a9d428c07fb0ce738"
         }
       },
       "linux": {
         "aarch64": {
-          "url": "https://proton.me/download/pass-cli/2.2.5/pass-cli-linux-aarch64",
-          "hash": "a8597eaf92631242a44c5b9b13b0fd0c0fc56b21a6c4f087b7d4c031651249b3"
+          "url": "https://proton.me/download/pass-cli/2.2.6/pass-cli-linux-aarch64",
+          "hash": "4a2b0d59e816351553b2712e3a291dea5c7da66148e763e6112549a672f26456"
         },
         "x86_64": {
-          "url": "https://proton.me/download/pass-cli/2.2.5/pass-cli-linux-x86_64",
-          "hash": "3971bfdb5649bc59634c2195e35259ea3f4b7889bba5a4f6698b6af50b27cf7f"
+          "url": "https://proton.me/download/pass-cli/2.2.6/pass-cli-linux-x86_64",
+          "hash": "cd4af40818954391f85038421a44a22230fd3c7c1ef57e39dc900721f42021c4"
         }
       },
       "windows": {
         "x86_64": {
-          "url": "https://proton.me/download/pass-cli/2.2.5/pass-cli-windows-x86_64.zip",
-          "hash": "3133a8b27489d18b5f5d06fd82cf0bddf185d29074df8e2b00f192f25ce92946"
+          "url": "https://proton.me/download/pass-cli/2.2.6/pass-cli-windows-x86_64.zip",
+          "hash": "c142e6ac717efc49e0373f16f722d61c8120efa0840b0345486f8fe6d3f187dc"
         }
       }
     }
