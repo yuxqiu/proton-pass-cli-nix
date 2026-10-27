@@ -1,32 +1,32 @@
 {
   "formatVersion": 1,
   "passCliVersions": {
-    "version": "2.5.1",
+    "version": "2.6.0",
     "urls": {
       "macos": {
         "aarch64": {
-          "url": "https://proton.me/download/pass-cli/2.5.1/pass-cli-macos-aarch64",
-          "hash": "2c5834dd21bef341db70c39eaa0a353d4b9e49a8a0d4e5579c02f62ed70db3d9"
+          "url": "https://proton.me/download/pass-cli/2.6.0/pass-cli-macos-aarch64",
+          "hash": "004efc4dbc30cbcd8b85506b24687b4cfdc75c9b412b2efb9efce685f09e42e3"
         },
         "x86_64": {
-          "url": "https://proton.me/download/pass-cli/2.5.1/pass-cli-macos-x86_64",
-          "hash": "fed0d6a919b8b05921c508cdd4cfe8c05a0b0cf4ccc55ed036e3b51ace6f7373"
+          "url": "https://proton.me/download/pass-cli/2.6.0/pass-cli-macos-x86_64",
+          "hash": "2a36d1923be5257ddc0efc3383b78362b1cb612595da49ee92fcfd9aa0c02823"
         }
       },
       "linux": {
         "aarch64": {
-          "url": "https://proton.me/download/pass-cli/2.5.1/pass-cli-linux-aarch64",
-          "hash": "03042c8ad70b21fa1da834f2e4e74484710ab3f05754af10c5035acdf68f3c87"
+          "url": "https://proton.me/download/pass-cli/2.6.0/pass-cli-linux-aarch64",
+          "hash": "0196958267711b25f1335b70428fb07e0d8d3be61a028ace879d74cb6586bac7"
         },
         "x86_64": {
-          "url": "https://proton.me/download/pass-cli/2.5.1/pass-cli-linux-x86_64",
-          "hash": "40e27645e0485f5f0db928b81469d1c5a7c8968a162956e940069476244c02b1"
+          "url": "https://proton.me/download/pass-cli/2.6.0/pass-cli-linux-x86_64",
+          "hash": "36e5657688297cff66f66eef1db28528013be5387fecad2200a5cd4a904cb781"
         }
       },
       "windows": {
         "x86_64": {
-          "url": "https://proton.me/download/pass-cli/2.5.1/pass-cli-windows-x86_64.zip",
-          "hash": "d1000e98de533b3e074e9bebf0f7dd562ee228030dc2dbba2bd454d5c0067511"
+          "url": "https://proton.me/download/pass-cli/2.6.0/pass-cli-windows-x86_64.zip",
+          "hash": "5ebca4ff85c42f44705a6a43985da70e7fa532db607fd2b96cf48d34069a2b95"
         }
       }
     }
